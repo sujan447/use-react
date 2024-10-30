@@ -4,7 +4,7 @@ import { FaCheckCircle } from "react-icons/fa";
 const Feature = ({feature}) => {
     return (
         <div>
-            <p className="flex items-center  "> <FaCheckCircle className="text-orange-400 mr-2 "></FaCheckCircle>{feature}</p>
+            <p className="flex items-center "> <FaCheckCircle className="text-orange-400 mr-2 "></FaCheckCircle>{feature}</p>
         </div>
     );
 };
